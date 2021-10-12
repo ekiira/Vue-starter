@@ -7,6 +7,11 @@ const app = Vue.createApp({
     };
 
   },
+  methods: {
+      changeTitle(title) {
+          this.title = title
+      }
+  }
 });
 
 app.mount("#app");
