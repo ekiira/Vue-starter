@@ -1,17 +1,17 @@
 const app = Vue.createApp({
   data() {
     return {
+      showBooks: true,
       title: "The Final Empire",
       author: "Yaw Baldwin",
-      age: "54"
+      age: "54",
     };
-
   },
   methods: {
-      changeTitle(title) {
-          this.title = title
-      }
-  }
+    toggleShowBooks() {
+      this.showBooks = !this.showBooks;
+    },
+  },
 });
 
 app.mount("#app");
