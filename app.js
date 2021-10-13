@@ -2,10 +2,21 @@ const app = Vue.createApp({
   data() {
     return {
       showBooks: true,
-      books: [
-        { title: "The Final Empire", author: "Yaw Baldwin" },
-        { title: "The Final Empire II", author: "Yaw Baldwin" },
-        { title: "Dumbledore", author: "J.K. Rowling" }
+      books: [{
+          title: "The Final Empire",
+          author: "Yaw Baldwin",
+          image: 'assets/avatar.jpeg'
+        },
+        {
+          title: "The Final Empire II",
+          author: "Yaw Baldwin",
+          image: 'assets/avatar.jpeg'
+        },
+        {
+          title: "Dumbledore",
+          author: "J.K. Rowling",
+          image: 'assets/avatar1.jpeg'
+        }
       ],
     };
   },
